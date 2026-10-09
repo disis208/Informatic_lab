@@ -12,7 +12,7 @@ skinparam usecaseBackgroundColor #FFFFFF
 
 actor "Администратор" as Admin
 
-rectangle "TechSupport — Учёт заявок в техподдержку" {
+rectangle "Support — Учёт подписчиков журнала" {
     usecase "Войти в систему" as UC_Login
     usecase "Зарегистрировать администратора" as UC_RegAdmin
     usecase "Просмотреть все заявки" as UC_ViewAll
