@@ -85,12 +85,12 @@ TechSupport/
 
 1. Клонирование репозитория с github
 ```bash
-git clone https://github.com/kosterik/TechSupport.git
+git clone https://github.com/disis208/Informatic_lab/tree/main
 ```
 
 2. Переход в корень проекта
 ```bash
-cd TechSupport
+cd Informatic_lab
 ```
 
 3. Создание виртуального окружения
@@ -121,11 +121,11 @@ pip install -r requirements.txt
 6. Запуск работы
 - **Windows**
 ```bash
-python src/techsupport/main.py
+python src/support/main.py
 ```
 - **Linux/macOS**
 ```bash
-python3 src/techsupport/main.py
+python3 src/support/main.py
 ```
 
 После запуска программа выведет:
