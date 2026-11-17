@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/gui.rpy", line 93, in script
+    define x = i
+  File "game/gui.rpy", line 93, in <module>
+    define x = i
+               ^
+NameError: name 'i' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/gui.rpy", line 93, in script
+    define x = i
+  File "renpy/ast.py", line 2533, in execute
+    self.set()
+    ~~~~~~~~^^
+  File "renpy/ast.py", line 2545, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1287, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/gui.rpy", line 93, in <module>
+    define x = i
+               ^
+NameError: name 'i' is not defined
+
+Windows-10-10.0.19045-SP0 AMD64
+Ren'Py 8.6.0.26111403
+Альманах alfa
+Tue Nov 17 04:25:59 2026

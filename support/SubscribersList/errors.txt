@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/gui.rpy", line 99: expected ':'
+    with Dissolve(3)
+                        ^
+
+Ren'Py Version: Ren'Py 8.6.0.26111403
+Tue Nov 17 04:33:55 2026
