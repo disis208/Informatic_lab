@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "Кит",
+      "password_hash": "c85cce5a0293cf0a1a77021e8d3c9b3b964b2e37baec7c587f2c9944bdb4d791",
+      "gender": "м",
+      "birth_year": 2008,
+      "email": null
+    }
+  ],
+  "workers": [
+    {
+      "id": 1,
+      "login": "Ролл",
+      "password_hash": "5dc5b821cc11e42907c31760fdac9b195e5efac94c330271c14766065d1b35f0"
+    }
+  ],
+  "publications": [],
+  "tags": [],
+  "likes": [],
+  "subscriptions": []
+}
